@@ -1,0 +1,8 @@
+.Button {
+    padding: 10px 15px;
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-bitton-text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
