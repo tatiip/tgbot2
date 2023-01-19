@@ -39,7 +39,7 @@ const getTotalPrice = (items = []) => {
             },
             body: JSON.stringify(data)
         })
-    }, [])
+    }, [addedItems])
 
     useEffect(() => {
         tg.onEvent('mainButtonClicked', onSendData)
